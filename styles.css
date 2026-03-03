@@ -59,6 +59,16 @@ button, input{
   --nav-hover: #16304d;
 }
 
+/* small utility for hidden text */
+.sr-only{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* ///ADD/// Skip Link Styles */
 #skip{
   position: absolute;
@@ -611,4 +621,4 @@ footer h2{
       color: rgba(241,250,238,0.85);
     }
   }
-}
+})
